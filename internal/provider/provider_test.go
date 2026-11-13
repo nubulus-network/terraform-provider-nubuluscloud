@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-go/tfprotov6"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
 
-	"github.com/nubulus-network/terraform-provider-nubuluscloud/internal/nubulus"
+	"github.com/nubulus-network/nubulus-go"
 )
 
 // testAccProtoV6ProviderFactories instantiates the provider for acceptance

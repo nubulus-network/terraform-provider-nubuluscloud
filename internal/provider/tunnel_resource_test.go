@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/defaults"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/nubulus-network/terraform-provider-nubuluscloud/internal/nubulus"
+	"github.com/nubulus-network/nubulus-go"
 )
 
 func tunnelSchema(t *testing.T) schema.Schema {
