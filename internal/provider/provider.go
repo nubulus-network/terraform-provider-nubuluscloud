@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/nubulus-network/terraform-provider-nubuluscloud/internal/nubulus"
+	"github.com/nubulus-network/nubulus-go"
 )
 
 // Ensure the provider satisfies the framework interface.

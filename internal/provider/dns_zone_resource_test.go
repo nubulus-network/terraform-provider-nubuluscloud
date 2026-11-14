@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/nubulus-network/terraform-provider-nubuluscloud/internal/nubulus"
+	"github.com/nubulus-network/nubulus-go"
 )
 
 // Once a zone is verified the API stops reporting its challenge, and the
